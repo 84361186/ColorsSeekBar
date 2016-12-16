@@ -13,8 +13,14 @@
         android:layout_height="wrap_content"
         android:text="Hello World!"/>
     <com.xq.myapplication.view.LineColorPicker
-        android:layout_height="wrap_content"
-        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_width="match_parent"
         android:layout_marginLeft="5dp">
     </com.xq.myapplication.view.LineColorPicker>
+    <com.xq.myapplication.view.GradientColorPicker
+        android:id="@+id/colorbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+    </com.xq.myapplication.view.GradientColorPicker>
+
 </LinearLayout>
